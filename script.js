@@ -21,9 +21,9 @@ const loop = setInterval(() => {
         mario.style.animation = 'none';
         mario.style.bottom = `${marioPosition}px`;
 
-        // mario.src = 'c:\workspace\mario-jump\imagens-jogo-mario\game-over.png';
-        // mario.style.width = '75px';
-        // mario.style.marginLeft = '50px';
+        mario.src = './imagens-jogo-mario/game-over.png';
+        mario.style.width = '75px';
+        mario.style.marginLeft = '50px';
 
         clearInterval(loop);
     }
